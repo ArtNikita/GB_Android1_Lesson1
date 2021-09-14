@@ -14,4 +14,12 @@
     <string name="no">No</string>
     <string name="no_disco_toast">No disco next :(</string>
     <string name="start_disco_toast">Let\'s go! :)</string>
+    <string name="start_next_activity_button">Start next activity</string>
+    <string name="second_activity_description_text_view">This activity contains several edit texts and calendar view just because</string>
+    <string name="name_edit_text_hint">Name</string>
+    <string name="phone_edit_text_hint">Phone</string>
+    <string name="number_password_edit_text_hint">Password (N)</string>
+    <string name="email_edit_text_hint">Email</string>
+    <string name="submit_button">Submit</string>
+    <string name="result_text_view_plug">Name:\nPhone:\nEmail:\nPassword:\nDate:</string>
 </resources>

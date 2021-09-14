@@ -111,6 +111,15 @@
             android:id="@+id/disco_toggle_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/start_next_activity_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_marginBottom="60dp"
+            android:text="@string/start_next_activity_button"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 </ScrollView>

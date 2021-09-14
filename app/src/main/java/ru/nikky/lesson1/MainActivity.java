@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
@@ -31,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
     private ToggleButton discoToggleButton;
 
     private Random random;
+
+    private Button startNextActivityButton;
     //endregion
 
     @Override
@@ -42,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
 
         setupChangeColorButton();
         setupDiscoToggleButton();
+
+        setupStartNextActivityButton();
     }
 
     private void initValues() {
@@ -55,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
         discoToggleButton = findViewById(R.id.disco_toggle_button);
 
         random = new Random();
+
+        startNextActivityButton = findViewById(R.id.start_next_activity_button);
     }
 
     private void setupChangeColorButton() {
@@ -134,5 +141,12 @@ public class MainActivity extends AppCompatActivity {
                 random.nextInt(256),
                 random.nextInt(256),
                 random.nextInt(256));
+    }
+
+    private void setupStartNextActivityButton() {
+        startNextActivityButton.setOnClickListener(view -> {
+            Intent intent = new Intent(this, SecondTaskActivity.class);
+            startActivity(intent);
+        });
     }
 }
