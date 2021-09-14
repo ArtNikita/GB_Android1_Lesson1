@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Lesson 1</string>
+    <string name="main_activity_greetings_text_view">Welcome to my first GB Android app</string>
+    <string name="rgb_edit_text_hint">rrggbb</string>
+    <string name="hashtag">#</string>
+    <string name="change_color_button_text">Change color</string>
+    <string name="background_checkbox">Background</string>
+    <string name="welcome_string_checkbox">Welcome string</string>
+    <string name="use_random_color">Use random color</string>
+    <string name="disco_toggle_button_description">Start 10 second disco party :D</string>
+    <string name="less_than_6_chars_toast_alert">Enter 6 rgb characters!</string>
+    <string name="epileptic_alert_dialog_message">Have you ever had epileptic seizures?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_disco_toast">No disco next :(</string>
+    <string name="start_disco_toast">Let\'s go! :)</string>
 </resources>
